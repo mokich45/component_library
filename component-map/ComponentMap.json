@@ -1,0 +1,491 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-02-04T19:10:08Z",
+  "sections": {
+    "contact": [
+      {
+        "id": "contact.contact-01",
+        "path": "sections/contact/contact-01",
+        "component": "Contact",
+        "schemaPath": "sections/contact/contact-01/schema.json"
+      }
+,
+      {
+        "id": "contact.contact-02",
+        "path": "sections/contact/contact-02",
+        "component": "Contact",
+        "schemaPath": "sections/contact/contact-02/schema.json"
+      }
+,
+      {
+        "id": "contact.contact-03",
+        "path": "sections/contact/contact-03",
+        "component": "Contact",
+        "schemaPath": "sections/contact/contact-03/schema.json"
+      }
+,
+      {
+        "id": "contact.contact-04",
+        "path": "sections/contact/contact-04",
+        "component": "Contact",
+        "schemaPath": "sections/contact/contact-04/schema.json"
+      }
+,
+      {
+        "id": "contact.contact-05",
+        "path": "sections/contact/contact-05",
+        "component": "Contact",
+        "schemaPath": "sections/contact/contact-05/schema.json"
+      }
+    ]
+,
+    "faq": [
+      {
+        "id": "faq.faq-01",
+        "path": "sections/faq/faq-01",
+        "component": "Faq",
+        "schemaPath": "sections/faq/faq-01/schema.json"
+      }
+,
+      {
+        "id": "faq.faq-02",
+        "path": "sections/faq/faq-02",
+        "component": "Faq",
+        "schemaPath": "sections/faq/faq-02/schema.json"
+      }
+,
+      {
+        "id": "faq.faq-03",
+        "path": "sections/faq/faq-03",
+        "component": "Faq",
+        "schemaPath": "sections/faq/faq-03/schema.json"
+      }
+,
+      {
+        "id": "faq.faq-04",
+        "path": "sections/faq/faq-04",
+        "component": "Faq",
+        "schemaPath": "sections/faq/faq-04/schema.json"
+      }
+    ]
+,
+    "features": [
+      {
+        "id": "features.features-01",
+        "path": "sections/features/features-01",
+        "component": "Features",
+        "schemaPath": "sections/features/features-01/schema.json"
+      }
+,
+      {
+        "id": "features.features-02",
+        "path": "sections/features/features-02",
+        "component": "Features",
+        "schemaPath": "sections/features/features-02/schema.json"
+      }
+,
+      {
+        "id": "features.features-03",
+        "path": "sections/features/features-03",
+        "component": "Features",
+        "schemaPath": "sections/features/features-03/schema.json"
+      }
+,
+      {
+        "id": "features.features-04",
+        "path": "sections/features/features-04",
+        "component": "Features",
+        "schemaPath": "sections/features/features-04/schema.json"
+      }
+,
+      {
+        "id": "features.features-05",
+        "path": "sections/features/features-05",
+        "component": "Features",
+        "schemaPath": "sections/features/features-05/schema.json"
+      }
+    ]
+,
+    "footer": [
+      {
+        "id": "footer.footer-01",
+        "path": "sections/footer/footer-01",
+        "component": "Footer",
+        "schemaPath": "sections/footer/footer-01/schema.json"
+      }
+,
+      {
+        "id": "footer.footer-02",
+        "path": "sections/footer/footer-02",
+        "component": "Footer",
+        "schemaPath": "sections/footer/footer-02/schema.json"
+      }
+,
+      {
+        "id": "footer.footer-03",
+        "path": "sections/footer/footer-03",
+        "component": "Footer",
+        "schemaPath": "sections/footer/footer-03/schema.json"
+      }
+,
+      {
+        "id": "footer.footer-04",
+        "path": "sections/footer/footer-04",
+        "component": "Footer",
+        "schemaPath": "sections/footer/footer-04/schema.json"
+      }
+,
+      {
+        "id": "footer.footer-05",
+        "path": "sections/footer/footer-05",
+        "component": "Footer",
+        "schemaPath": "sections/footer/footer-05/schema.json"
+      }
+    ]
+,
+    "hero": [
+      {
+        "id": "hero.hero-01",
+        "path": "sections/hero/hero-01",
+        "component": "Hero",
+        "schemaPath": "sections/hero/hero-01/schema.json"
+      }
+,
+      {
+        "id": "hero.hero-02",
+        "path": "sections/hero/hero-02",
+        "component": "Hero",
+        "schemaPath": "sections/hero/hero-02/schema.json"
+      }
+,
+      {
+        "id": "hero.hero-03",
+        "path": "sections/hero/hero-03",
+        "component": "Hero",
+        "schemaPath": "sections/hero/hero-03/schema.json"
+      }
+,
+      {
+        "id": "hero.hero-04",
+        "path": "sections/hero/hero-04",
+        "component": "Hero",
+        "schemaPath": "sections/hero/hero-04/schema.json"
+      }
+,
+      {
+        "id": "hero.hero-05",
+        "path": "sections/hero/hero-05",
+        "component": "Hero",
+        "schemaPath": "sections/hero/hero-05/schema.json"
+      }
+,
+      {
+        "id": "hero.hero-06",
+        "path": "sections/hero/hero-06",
+        "component": "Hero",
+        "schemaPath": "sections/hero/hero-06/schema.json"
+      }
+,
+      {
+        "id": "hero.hero-07",
+        "path": "sections/hero/hero-07",
+        "component": "Hero",
+        "schemaPath": "sections/hero/hero-07/schema.json"
+      }
+    ]
+,
+    "portfolio": [
+      {
+        "id": "portfolio.portfolio-01",
+        "path": "sections/portfolio/portfolio-01",
+        "component": "Portfolio",
+        "schemaPath": "sections/portfolio/portfolio-01/schema.json"
+      }
+,
+      {
+        "id": "portfolio.portfolio-02",
+        "path": "sections/portfolio/portfolio-02",
+        "component": "Portfolio",
+        "schemaPath": "sections/portfolio/portfolio-02/schema.json"
+      }
+,
+      {
+        "id": "portfolio.portfolio-03",
+        "path": "sections/portfolio/portfolio-03",
+        "component": "Portfolio",
+        "schemaPath": "sections/portfolio/portfolio-03/schema.json"
+      }
+,
+      {
+        "id": "portfolio.portfolio-04",
+        "path": "sections/portfolio/portfolio-04",
+        "component": "Portfolio",
+        "schemaPath": "sections/portfolio/portfolio-04/schema.json"
+      }
+,
+      {
+        "id": "portfolio.portfolio-05",
+        "path": "sections/portfolio/portfolio-05",
+        "component": "Portfolio",
+        "schemaPath": "sections/portfolio/portfolio-05/schema.json"
+      }
+    ]
+,
+    "process": [
+      {
+        "id": "process.process-01",
+        "path": "sections/process/process-01",
+        "component": "Process",
+        "schemaPath": "sections/process/process-01/schema.json"
+      }
+,
+      {
+        "id": "process.process-02",
+        "path": "sections/process/process-02",
+        "component": "Process",
+        "schemaPath": "sections/process/process-02/schema.json"
+      }
+,
+      {
+        "id": "process.process-03",
+        "path": "sections/process/process-03",
+        "component": "Process",
+        "schemaPath": "sections/process/process-03/schema.json"
+      }
+,
+      {
+        "id": "process.process-04",
+        "path": "sections/process/process-04",
+        "component": "Process",
+        "schemaPath": "sections/process/process-04/schema.json"
+      }
+,
+      {
+        "id": "process.process-05",
+        "path": "sections/process/process-05",
+        "component": "Process",
+        "schemaPath": "sections/process/process-05/schema.json"
+      }
+    ]
+,
+    "proof": [
+      {
+        "id": "proof.proof-01",
+        "path": "sections/proof/proof-01",
+        "component": "Proof",
+        "schemaPath": "sections/proof/proof-01/schema.json"
+      }
+,
+      {
+        "id": "proof.proof-02",
+        "path": "sections/proof/proof-02",
+        "component": "Proof",
+        "schemaPath": "sections/proof/proof-02/schema.json"
+      }
+,
+      {
+        "id": "proof.proof-03",
+        "path": "sections/proof/proof-03",
+        "component": "Proof",
+        "schemaPath": "sections/proof/proof-03/schema.json"
+      }
+,
+      {
+        "id": "proof.proof-04",
+        "path": "sections/proof/proof-04",
+        "component": "Proof",
+        "schemaPath": "sections/proof/proof-04/schema.json"
+      }
+,
+      {
+        "id": "proof.proof-05",
+        "path": "sections/proof/proof-05",
+        "component": "Proof",
+        "schemaPath": "sections/proof/proof-05/schema.json"
+      }
+    ]
+,
+    "services": [
+      {
+        "id": "services.services-01",
+        "path": "sections/services/services-01",
+        "component": "Services",
+        "schemaPath": "sections/services/services-01/schema.json"
+      }
+,
+      {
+        "id": "services.services-02",
+        "path": "sections/services/services-02",
+        "component": "Services",
+        "schemaPath": "sections/services/services-02/schema.json"
+      }
+,
+      {
+        "id": "services.services-03",
+        "path": "sections/services/services-03",
+        "component": "Services",
+        "schemaPath": "sections/services/services-03/schema.json"
+      }
+,
+      {
+        "id": "services.services-04",
+        "path": "sections/services/services-04",
+        "component": "Services",
+        "schemaPath": "sections/services/services-04/schema.json"
+      }
+,
+      {
+        "id": "services.services-05",
+        "path": "sections/services/services-05",
+        "component": "Services",
+        "schemaPath": "sections/services/services-05/schema.json"
+      }
+    ]
+,
+    "trust": [
+      {
+        "id": "trust.trust-01",
+        "path": "sections/trust/trust-01",
+        "component": "Trust",
+        "schemaPath": "sections/trust/trust-01/schema.json"
+      }
+,
+      {
+        "id": "trust.trust-02",
+        "path": "sections/trust/trust-02",
+        "component": "Trust",
+        "schemaPath": "sections/trust/trust-02/schema.json"
+      }
+,
+      {
+        "id": "trust.trust-03",
+        "path": "sections/trust/trust-03",
+        "component": "Trust",
+        "schemaPath": "sections/trust/trust-03/schema.json"
+      }
+,
+      {
+        "id": "trust.trust-04",
+        "path": "sections/trust/trust-04",
+        "component": "Trust",
+        "schemaPath": "sections/trust/trust-04/schema.json"
+      }
+,
+      {
+        "id": "trust.trust-05",
+        "path": "sections/trust/trust-05",
+        "component": "Trust",
+        "schemaPath": "sections/trust/trust-05/schema.json"
+      }
+    ]
+  },
+  "ui": {
+    "buttons": [
+      {
+        "id": "ui.buttons.button-01",
+        "path": "ui/buttons/button-01"
+      }
+    ]
+,
+    "cards": [
+      {
+        "id": "ui.cards.card-01",
+        "path": "ui/cards/card-01"
+      }
+    ]
+,
+    "inputs": [
+      {
+        "id": "ui.inputs.input-01",
+        "path": "ui/inputs/input-01"
+      }
+    ]
+,
+    "layouts": [
+      {
+        "id": "ui.layouts.layout-01",
+        "path": "ui/layouts/layout-01"
+      }
+    ]
+,
+    "typography": [
+      {
+        "id": "ui.typography.typography-01",
+        "path": "ui/typography/typography-01"
+      }
+    ]
+  },
+  "presets": [
+    {
+      "id": "preset.design-system",
+      "path": "presets/design-system",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-01",
+      "path": "presets/preset-01",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-02",
+      "path": "presets/preset-02",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-03",
+      "path": "presets/preset-03",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-04",
+      "path": "presets/preset-04",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-05",
+      "path": "presets/preset-05",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-06",
+      "path": "presets/preset-06",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-07",
+      "path": "presets/preset-07",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-08",
+      "path": "presets/preset-08",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-09",
+      "path": "presets/preset-09",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-10",
+      "path": "presets/preset-10",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+,
+    {
+      "id": "preset.preset-11",
+      "path": "presets/preset-11",
+      "tokens": { "hasTailwindConfig": true, "hasCssVars": true }
+    }
+  ]
+}

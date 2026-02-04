@@ -1,0 +1,9 @@
+{
+  "type": "trust",
+  "variant": "trust-03",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}

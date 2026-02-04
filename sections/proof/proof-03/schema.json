@@ -1,0 +1,9 @@
+{
+  "type": "proof",
+  "variant": "proof-03",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}

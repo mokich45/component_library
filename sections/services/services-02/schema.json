@@ -1,0 +1,9 @@
+{
+  "type": "services",
+  "variant": "services-02",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}

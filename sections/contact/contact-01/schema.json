@@ -1,0 +1,9 @@
+{
+  "type": "contact",
+  "variant": "contact-01",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}

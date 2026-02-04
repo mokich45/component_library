@@ -1,0 +1,9 @@
+{
+  "type": "features",
+  "variant": "features-04",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}

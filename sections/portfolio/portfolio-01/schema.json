@@ -1,0 +1,9 @@
+{
+  "type": "portfolio",
+  "variant": "portfolio-01",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}

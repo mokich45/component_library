@@ -1,0 +1,8 @@
+# portfolio-01
+Section: portfolio
+Generated metadata for Portfolio component.
+
+Expected data shape:
+- title: string
+- subtitle: string (optional)
+- items: array (if applicable)

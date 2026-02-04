@@ -1,0 +1,9 @@
+{
+  "type": "footer",
+  "variant": "footer-05",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}

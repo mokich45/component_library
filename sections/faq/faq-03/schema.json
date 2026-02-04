@@ -1,0 +1,9 @@
+{
+  "type": "faq",
+  "variant": "faq-03",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}

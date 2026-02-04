@@ -1,0 +1,9 @@
+{
+  "type": "hero",
+  "variant": "hero-04",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}
