@@ -1,0 +1,24 @@
+{
+  "type": "footer",
+  "variantId": "footer.footer-05",
+  "name": "Footer - footer-05",
+  "description": "footer section variant footer-05",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [],
+  "supports": {
+    "bilingual": true,
+    "hasNav": true,
+    "hasCta": true
+  },
+  "weight": 1
+}

@@ -1,0 +1,24 @@
+{
+  "type": "process",
+  "variantId": "process.process-03",
+  "name": "Process - process-03",
+  "description": "process section variant process-03",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [],
+  "supports": {
+    "bilingual": true,
+    "hasNav": false,
+    "hasCta": false
+  },
+  "weight": 1
+}

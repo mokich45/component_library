@@ -1,0 +1,24 @@
+{
+  "type": "features",
+  "variantId": "features.features-04",
+  "name": "Features - features-04",
+  "description": "features section variant features-04",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [],
+  "supports": {
+    "bilingual": true,
+    "hasNav": false,
+    "hasCta": true
+  },
+  "weight": 1
+}

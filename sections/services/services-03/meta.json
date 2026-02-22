@@ -1,0 +1,24 @@
+{
+  "type": "services",
+  "variantId": "services.services-03",
+  "name": "Services - services-03",
+  "description": "services section variant services-03",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [],
+  "supports": {
+    "bilingual": true,
+    "hasNav": false,
+    "hasCta": true
+  },
+  "weight": 1
+}

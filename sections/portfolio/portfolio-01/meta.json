@@ -1,0 +1,26 @@
+{
+  "type": "portfolio",
+  "variantId": "portfolio.portfolio-01",
+  "name": "Portfolio - portfolio-01",
+  "description": "portfolio section variant portfolio-01",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [
+    "image"
+  ],
+  "supports": {
+    "bilingual": true,
+    "hasNav": false,
+    "hasCta": true
+  },
+  "weight": 1
+}

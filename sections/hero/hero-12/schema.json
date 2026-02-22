@@ -1,0 +1,11 @@
+{
+  "type": "hero",
+  "variant": "hero-12",
+  "fields": {
+    "title": "string",
+    "subtitle": "string",
+    "ctas": "array",
+    "media": "object",
+    "nav": "object"
+  }
+}

@@ -1,0 +1,1888 @@
+{
+  "version": "component_map_v1",
+  "generatedAt": "2026-02-22T17:50:46.195Z",
+  "components": [
+    {
+      "type": "contact",
+      "variantId": "contact.contact-01",
+      "name": "Contact - contact-01",
+      "componentPath": "sections/contact/contact-01/index.tsx",
+      "metaPath": "sections/contact/contact-01/meta.json",
+      "schemaPath": "sections/contact/contact-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "contact",
+        "variantId": "contact.contact-01",
+        "name": "Contact - contact-01",
+        "description": "contact section variant contact-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "contact",
+      "variantId": "contact.contact-02",
+      "name": "Contact - contact-02",
+      "componentPath": "sections/contact/contact-02/index.tsx",
+      "metaPath": "sections/contact/contact-02/meta.json",
+      "schemaPath": "sections/contact/contact-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "contact",
+        "variantId": "contact.contact-02",
+        "name": "Contact - contact-02",
+        "description": "contact section variant contact-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "contact",
+      "variantId": "contact.contact-03",
+      "name": "Contact - contact-03",
+      "componentPath": "sections/contact/contact-03/index.tsx",
+      "metaPath": "sections/contact/contact-03/meta.json",
+      "schemaPath": "sections/contact/contact-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "contact",
+        "variantId": "contact.contact-03",
+        "name": "Contact - contact-03",
+        "description": "contact section variant contact-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "contact",
+      "variantId": "contact.contact-04",
+      "name": "Contact - contact-04",
+      "componentPath": "sections/contact/contact-04/index.tsx",
+      "metaPath": "sections/contact/contact-04/meta.json",
+      "schemaPath": "sections/contact/contact-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "contact",
+        "variantId": "contact.contact-04",
+        "name": "Contact - contact-04",
+        "description": "contact section variant contact-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "contact",
+      "variantId": "contact.contact-05",
+      "name": "Contact - contact-05",
+      "componentPath": "sections/contact/contact-05/index.tsx",
+      "metaPath": "sections/contact/contact-05/meta.json",
+      "schemaPath": "sections/contact/contact-05/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "contact",
+        "variantId": "contact.contact-05",
+        "name": "Contact - contact-05",
+        "description": "contact section variant contact-05",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "faq",
+      "variantId": "faq.faq-01",
+      "name": "Faq - faq-01",
+      "componentPath": "sections/faq/faq-01/index.tsx",
+      "metaPath": "sections/faq/faq-01/meta.json",
+      "schemaPath": "sections/faq/faq-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "faq",
+        "variantId": "faq.faq-01",
+        "name": "Faq - faq-01",
+        "description": "faq section variant faq-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "faq",
+      "variantId": "faq.faq-02",
+      "name": "Faq - faq-02",
+      "componentPath": "sections/faq/faq-02/index.tsx",
+      "metaPath": "sections/faq/faq-02/meta.json",
+      "schemaPath": "sections/faq/faq-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "faq",
+        "variantId": "faq.faq-02",
+        "name": "Faq - faq-02",
+        "description": "faq section variant faq-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "faq",
+      "variantId": "faq.faq-03",
+      "name": "Faq - faq-03",
+      "componentPath": "sections/faq/faq-03/index.tsx",
+      "metaPath": "sections/faq/faq-03/meta.json",
+      "schemaPath": "sections/faq/faq-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "faq",
+        "variantId": "faq.faq-03",
+        "name": "Faq - faq-03",
+        "description": "faq section variant faq-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "faq",
+      "variantId": "faq.faq-04",
+      "name": "Faq - faq-04",
+      "componentPath": "sections/faq/faq-04/index.tsx",
+      "metaPath": "sections/faq/faq-04/meta.json",
+      "schemaPath": "sections/faq/faq-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "faq",
+        "variantId": "faq.faq-04",
+        "name": "Faq - faq-04",
+        "description": "faq section variant faq-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "features",
+      "variantId": "features.features-01",
+      "name": "Features - features-01",
+      "componentPath": "sections/features/features-01/index.tsx",
+      "metaPath": "sections/features/features-01/meta.json",
+      "schemaPath": "sections/features/features-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "features",
+        "variantId": "features.features-01",
+        "name": "Features - features-01",
+        "description": "features section variant features-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "features",
+      "variantId": "features.features-02",
+      "name": "Features - features-02",
+      "componentPath": "sections/features/features-02/index.tsx",
+      "metaPath": "sections/features/features-02/meta.json",
+      "schemaPath": "sections/features/features-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "features",
+        "variantId": "features.features-02",
+        "name": "Features - features-02",
+        "description": "features section variant features-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "features",
+      "variantId": "features.features-03",
+      "name": "Features - features-03",
+      "componentPath": "sections/features/features-03/index.tsx",
+      "metaPath": "sections/features/features-03/meta.json",
+      "schemaPath": "sections/features/features-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "features",
+        "variantId": "features.features-03",
+        "name": "Features - features-03",
+        "description": "features section variant features-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "features",
+      "variantId": "features.features-04",
+      "name": "Features - features-04",
+      "componentPath": "sections/features/features-04/index.tsx",
+      "metaPath": "sections/features/features-04/meta.json",
+      "schemaPath": "sections/features/features-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "features",
+        "variantId": "features.features-04",
+        "name": "Features - features-04",
+        "description": "features section variant features-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "features",
+      "variantId": "features.features-05",
+      "name": "Features - features-05",
+      "componentPath": "sections/features/features-05/index.tsx",
+      "metaPath": "sections/features/features-05/meta.json",
+      "schemaPath": "sections/features/features-05/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "features",
+        "variantId": "features.features-05",
+        "name": "Features - features-05",
+        "description": "features section variant features-05",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "footer",
+      "variantId": "footer.footer-01",
+      "name": "Footer - footer-01",
+      "componentPath": "sections/footer/footer-01/index.tsx",
+      "metaPath": "sections/footer/footer-01/meta.json",
+      "schemaPath": "sections/footer/footer-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "footer",
+        "variantId": "footer.footer-01",
+        "name": "Footer - footer-01",
+        "description": "footer section variant footer-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "footer",
+      "variantId": "footer.footer-02",
+      "name": "Footer - footer-02",
+      "componentPath": "sections/footer/footer-02/index.tsx",
+      "metaPath": "sections/footer/footer-02/meta.json",
+      "schemaPath": "sections/footer/footer-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "footer",
+        "variantId": "footer.footer-02",
+        "name": "Footer - footer-02",
+        "description": "footer section variant footer-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "footer",
+      "variantId": "footer.footer-03",
+      "name": "Footer - footer-03",
+      "componentPath": "sections/footer/footer-03/index.tsx",
+      "metaPath": "sections/footer/footer-03/meta.json",
+      "schemaPath": "sections/footer/footer-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "footer",
+        "variantId": "footer.footer-03",
+        "name": "Footer - footer-03",
+        "description": "footer section variant footer-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "footer",
+      "variantId": "footer.footer-04",
+      "name": "Footer - footer-04",
+      "componentPath": "sections/footer/footer-04/index.tsx",
+      "metaPath": "sections/footer/footer-04/meta.json",
+      "schemaPath": "sections/footer/footer-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "footer",
+        "variantId": "footer.footer-04",
+        "name": "Footer - footer-04",
+        "description": "footer section variant footer-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "footer",
+      "variantId": "footer.footer-05",
+      "name": "Footer - footer-05",
+      "componentPath": "sections/footer/footer-05/index.tsx",
+      "metaPath": "sections/footer/footer-05/meta.json",
+      "schemaPath": "sections/footer/footer-05/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "footer",
+        "variantId": "footer.footer-05",
+        "name": "Footer - footer-05",
+        "description": "footer section variant footer-05",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-01",
+      "name": "Hero - hero-01",
+      "componentPath": "sections/hero/hero-01/index.tsx",
+      "metaPath": "sections/hero/hero-01/meta.json",
+      "schemaPath": "sections/hero/hero-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-01",
+        "name": "Hero - hero-01",
+        "description": "hero section variant hero-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-02",
+      "name": "Hero - hero-02",
+      "componentPath": "sections/hero/hero-02/index.tsx",
+      "metaPath": "sections/hero/hero-02/meta.json",
+      "schemaPath": "sections/hero/hero-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-02",
+        "name": "Hero - hero-02",
+        "description": "hero section variant hero-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-03",
+      "name": "Hero - hero-03",
+      "componentPath": "sections/hero/hero-03/index.tsx",
+      "metaPath": "sections/hero/hero-03/meta.json",
+      "schemaPath": "sections/hero/hero-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-03",
+        "name": "Hero - hero-03",
+        "description": "hero section variant hero-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-04",
+      "name": "Hero - hero-04",
+      "componentPath": "sections/hero/hero-04/index.tsx",
+      "metaPath": "sections/hero/hero-04/meta.json",
+      "schemaPath": "sections/hero/hero-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-04",
+        "name": "Hero - hero-04",
+        "description": "hero section variant hero-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-05",
+      "name": "Hero - hero-05",
+      "componentPath": "sections/hero/hero-05/index.tsx",
+      "metaPath": "sections/hero/hero-05/meta.json",
+      "schemaPath": "sections/hero/hero-05/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-05",
+        "name": "Hero - hero-05",
+        "description": "hero section variant hero-05",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-06",
+      "name": "Hero - hero-06",
+      "componentPath": "sections/hero/hero-06/index.tsx",
+      "metaPath": "sections/hero/hero-06/meta.json",
+      "schemaPath": "sections/hero/hero-06/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-06",
+        "name": "Hero - hero-06",
+        "description": "hero section variant hero-06",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-07",
+      "name": "Hero - hero-07",
+      "componentPath": "sections/hero/hero-07/index.tsx",
+      "metaPath": "sections/hero/hero-07/meta.json",
+      "schemaPath": "sections/hero/hero-07/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-07",
+        "name": "Hero - hero-07",
+        "description": "hero section variant hero-07",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-08",
+      "name": "Hero - hero-08",
+      "componentPath": "sections/hero/hero-08/index.tsx",
+      "metaPath": "sections/hero/hero-08/meta.json",
+      "schemaPath": "sections/hero/hero-08/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-08",
+        "name": "Hero - hero-08",
+        "description": "hero section variant hero-08",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-09",
+      "name": "Hero - hero-09",
+      "componentPath": "sections/hero/hero-09/index.tsx",
+      "metaPath": "sections/hero/hero-09/meta.json",
+      "schemaPath": "sections/hero/hero-09/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-09",
+        "name": "Hero - hero-09",
+        "description": "hero section variant hero-09",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-10",
+      "name": "Hero - hero-10",
+      "componentPath": "sections/hero/hero-10/index.tsx",
+      "metaPath": "sections/hero/hero-10/meta.json",
+      "schemaPath": "sections/hero/hero-10/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-10",
+        "name": "Hero - hero-10",
+        "description": "hero section variant hero-10",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-11",
+      "name": "Hero - hero-11",
+      "componentPath": "sections/hero/hero-11/index.tsx",
+      "metaPath": "sections/hero/hero-11/meta.json",
+      "schemaPath": "sections/hero/hero-11/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-11",
+        "name": "Hero - hero-11",
+        "description": "hero section variant hero-11",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "hero",
+      "variantId": "hero.hero-12",
+      "name": "Hero - hero-12",
+      "componentPath": "sections/hero/hero-12/index.tsx",
+      "metaPath": "sections/hero/hero-12/meta.json",
+      "schemaPath": "sections/hero/hero-12/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "hero",
+        "variantId": "hero.hero-12",
+        "name": "Hero - hero-12",
+        "description": "hero section variant hero-12",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": true,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "portfolio",
+      "variantId": "portfolio.portfolio-01",
+      "name": "Portfolio - portfolio-01",
+      "componentPath": "sections/portfolio/portfolio-01/index.tsx",
+      "metaPath": "sections/portfolio/portfolio-01/meta.json",
+      "schemaPath": "sections/portfolio/portfolio-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "portfolio",
+        "variantId": "portfolio.portfolio-01",
+        "name": "Portfolio - portfolio-01",
+        "description": "portfolio section variant portfolio-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "portfolio",
+      "variantId": "portfolio.portfolio-02",
+      "name": "Portfolio - portfolio-02",
+      "componentPath": "sections/portfolio/portfolio-02/index.tsx",
+      "metaPath": "sections/portfolio/portfolio-02/meta.json",
+      "schemaPath": "sections/portfolio/portfolio-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "portfolio",
+        "variantId": "portfolio.portfolio-02",
+        "name": "Portfolio - portfolio-02",
+        "description": "portfolio section variant portfolio-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "portfolio",
+      "variantId": "portfolio.portfolio-03",
+      "name": "Portfolio - portfolio-03",
+      "componentPath": "sections/portfolio/portfolio-03/index.tsx",
+      "metaPath": "sections/portfolio/portfolio-03/meta.json",
+      "schemaPath": "sections/portfolio/portfolio-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "portfolio",
+        "variantId": "portfolio.portfolio-03",
+        "name": "Portfolio - portfolio-03",
+        "description": "portfolio section variant portfolio-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "portfolio",
+      "variantId": "portfolio.portfolio-04",
+      "name": "Portfolio - portfolio-04",
+      "componentPath": "sections/portfolio/portfolio-04/index.tsx",
+      "metaPath": "sections/portfolio/portfolio-04/meta.json",
+      "schemaPath": "sections/portfolio/portfolio-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "portfolio",
+        "variantId": "portfolio.portfolio-04",
+        "name": "Portfolio - portfolio-04",
+        "description": "portfolio section variant portfolio-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "portfolio",
+      "variantId": "portfolio.portfolio-05",
+      "name": "Portfolio - portfolio-05",
+      "componentPath": "sections/portfolio/portfolio-05/index.tsx",
+      "metaPath": "sections/portfolio/portfolio-05/meta.json",
+      "schemaPath": "sections/portfolio/portfolio-05/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "portfolio",
+        "variantId": "portfolio.portfolio-05",
+        "name": "Portfolio - portfolio-05",
+        "description": "portfolio section variant portfolio-05",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [
+          "image"
+        ],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "process",
+      "variantId": "process.process-01",
+      "name": "Process - process-01",
+      "componentPath": "sections/process/process-01/index.tsx",
+      "metaPath": "sections/process/process-01/meta.json",
+      "schemaPath": "sections/process/process-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "process",
+        "variantId": "process.process-01",
+        "name": "Process - process-01",
+        "description": "process section variant process-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "process",
+      "variantId": "process.process-02",
+      "name": "Process - process-02",
+      "componentPath": "sections/process/process-02/index.tsx",
+      "metaPath": "sections/process/process-02/meta.json",
+      "schemaPath": "sections/process/process-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "process",
+        "variantId": "process.process-02",
+        "name": "Process - process-02",
+        "description": "process section variant process-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "process",
+      "variantId": "process.process-03",
+      "name": "Process - process-03",
+      "componentPath": "sections/process/process-03/index.tsx",
+      "metaPath": "sections/process/process-03/meta.json",
+      "schemaPath": "sections/process/process-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "process",
+        "variantId": "process.process-03",
+        "name": "Process - process-03",
+        "description": "process section variant process-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "process",
+      "variantId": "process.process-04",
+      "name": "Process - process-04",
+      "componentPath": "sections/process/process-04/index.tsx",
+      "metaPath": "sections/process/process-04/meta.json",
+      "schemaPath": "sections/process/process-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "process",
+        "variantId": "process.process-04",
+        "name": "Process - process-04",
+        "description": "process section variant process-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "process",
+      "variantId": "process.process-05",
+      "name": "Process - process-05",
+      "componentPath": "sections/process/process-05/index.tsx",
+      "metaPath": "sections/process/process-05/meta.json",
+      "schemaPath": "sections/process/process-05/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "process",
+        "variantId": "process.process-05",
+        "name": "Process - process-05",
+        "description": "process section variant process-05",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "proof",
+      "variantId": "proof.proof-01",
+      "name": "Proof - proof-01",
+      "componentPath": "sections/proof/proof-01/index.tsx",
+      "metaPath": "sections/proof/proof-01/meta.json",
+      "schemaPath": "sections/proof/proof-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "proof",
+        "variantId": "proof.proof-01",
+        "name": "Proof - proof-01",
+        "description": "proof section variant proof-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "proof",
+      "variantId": "proof.proof-02",
+      "name": "Proof - proof-02",
+      "componentPath": "sections/proof/proof-02/index.tsx",
+      "metaPath": "sections/proof/proof-02/meta.json",
+      "schemaPath": "sections/proof/proof-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "proof",
+        "variantId": "proof.proof-02",
+        "name": "Proof - proof-02",
+        "description": "proof section variant proof-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "proof",
+      "variantId": "proof.proof-03",
+      "name": "Proof - proof-03",
+      "componentPath": "sections/proof/proof-03/index.tsx",
+      "metaPath": "sections/proof/proof-03/meta.json",
+      "schemaPath": "sections/proof/proof-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "proof",
+        "variantId": "proof.proof-03",
+        "name": "Proof - proof-03",
+        "description": "proof section variant proof-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "proof",
+      "variantId": "proof.proof-04",
+      "name": "Proof - proof-04",
+      "componentPath": "sections/proof/proof-04/index.tsx",
+      "metaPath": "sections/proof/proof-04/meta.json",
+      "schemaPath": "sections/proof/proof-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "proof",
+        "variantId": "proof.proof-04",
+        "name": "Proof - proof-04",
+        "description": "proof section variant proof-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "proof",
+      "variantId": "proof.proof-05",
+      "name": "Proof - proof-05",
+      "componentPath": "sections/proof/proof-05/index.tsx",
+      "metaPath": "sections/proof/proof-05/meta.json",
+      "schemaPath": "sections/proof/proof-05/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "proof",
+        "variantId": "proof.proof-05",
+        "name": "Proof - proof-05",
+        "description": "proof section variant proof-05",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "services",
+      "variantId": "services.services-01",
+      "name": "Services - services-01",
+      "componentPath": "sections/services/services-01/index.tsx",
+      "metaPath": "sections/services/services-01/meta.json",
+      "schemaPath": "sections/services/services-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "services",
+        "variantId": "services.services-01",
+        "name": "Services - services-01",
+        "description": "services section variant services-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "services",
+      "variantId": "services.services-02",
+      "name": "Services - services-02",
+      "componentPath": "sections/services/services-02/index.tsx",
+      "metaPath": "sections/services/services-02/meta.json",
+      "schemaPath": "sections/services/services-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "services",
+        "variantId": "services.services-02",
+        "name": "Services - services-02",
+        "description": "services section variant services-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "services",
+      "variantId": "services.services-03",
+      "name": "Services - services-03",
+      "componentPath": "sections/services/services-03/index.tsx",
+      "metaPath": "sections/services/services-03/meta.json",
+      "schemaPath": "sections/services/services-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "services",
+        "variantId": "services.services-03",
+        "name": "Services - services-03",
+        "description": "services section variant services-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "services",
+      "variantId": "services.services-04",
+      "name": "Services - services-04",
+      "componentPath": "sections/services/services-04/index.tsx",
+      "metaPath": "sections/services/services-04/meta.json",
+      "schemaPath": "sections/services/services-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "services",
+        "variantId": "services.services-04",
+        "name": "Services - services-04",
+        "description": "services section variant services-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "services",
+      "variantId": "services.services-05",
+      "name": "Services - services-05",
+      "componentPath": "sections/services/services-05/index.tsx",
+      "metaPath": "sections/services/services-05/meta.json",
+      "schemaPath": "sections/services/services-05/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "services",
+        "variantId": "services.services-05",
+        "name": "Services - services-05",
+        "description": "services section variant services-05",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": true
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "trust",
+      "variantId": "trust.trust-01",
+      "name": "Trust - trust-01",
+      "componentPath": "sections/trust/trust-01/index.tsx",
+      "metaPath": "sections/trust/trust-01/meta.json",
+      "schemaPath": "sections/trust/trust-01/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "trust",
+        "variantId": "trust.trust-01",
+        "name": "Trust - trust-01",
+        "description": "trust section variant trust-01",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "trust",
+      "variantId": "trust.trust-02",
+      "name": "Trust - trust-02",
+      "componentPath": "sections/trust/trust-02/index.tsx",
+      "metaPath": "sections/trust/trust-02/meta.json",
+      "schemaPath": "sections/trust/trust-02/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "trust",
+        "variantId": "trust.trust-02",
+        "name": "Trust - trust-02",
+        "description": "trust section variant trust-02",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "trust",
+      "variantId": "trust.trust-03",
+      "name": "Trust - trust-03",
+      "componentPath": "sections/trust/trust-03/index.tsx",
+      "metaPath": "sections/trust/trust-03/meta.json",
+      "schemaPath": "sections/trust/trust-03/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "trust",
+        "variantId": "trust.trust-03",
+        "name": "Trust - trust-03",
+        "description": "trust section variant trust-03",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "trust",
+      "variantId": "trust.trust-04",
+      "name": "Trust - trust-04",
+      "componentPath": "sections/trust/trust-04/index.tsx",
+      "metaPath": "sections/trust/trust-04/meta.json",
+      "schemaPath": "sections/trust/trust-04/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "trust",
+        "variantId": "trust.trust-04",
+        "name": "Trust - trust-04",
+        "description": "trust section variant trust-04",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    },
+    {
+      "type": "trust",
+      "variantId": "trust.trust-05",
+      "name": "Trust - trust-05",
+      "componentPath": "sections/trust/trust-05/index.tsx",
+      "metaPath": "sections/trust/trust-05/meta.json",
+      "schemaPath": "sections/trust/trust-05/schema.json",
+      "previewPath": null,
+      "meta": {
+        "type": "trust",
+        "variantId": "trust.trust-05",
+        "name": "Trust - trust-05",
+        "description": "trust section variant trust-05",
+        "tags": [
+          "general"
+        ],
+        "goals": [
+          "calls",
+          "leads",
+          "awareness"
+        ],
+        "density": [
+          "medium"
+        ],
+        "requires": [],
+        "supports": {
+          "bilingual": true,
+          "hasNav": false,
+          "hasCta": false
+        },
+        "weight": 1
+      }
+    }
+  ]
+}

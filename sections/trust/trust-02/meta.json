@@ -1,0 +1,24 @@
+{
+  "type": "trust",
+  "variantId": "trust.trust-02",
+  "name": "Trust - trust-02",
+  "description": "trust section variant trust-02",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [],
+  "supports": {
+    "bilingual": true,
+    "hasNav": false,
+    "hasCta": false
+  },
+  "weight": 1
+}

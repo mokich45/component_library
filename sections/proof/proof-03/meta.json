@@ -1,0 +1,24 @@
+{
+  "type": "proof",
+  "variantId": "proof.proof-03",
+  "name": "Proof - proof-03",
+  "description": "proof section variant proof-03",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [],
+  "supports": {
+    "bilingual": true,
+    "hasNav": false,
+    "hasCta": true
+  },
+  "weight": 1
+}

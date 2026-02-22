@@ -1,0 +1,11 @@
+{
+  "name": "ddt-library",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate:map": "node --experimental-strip-types scripts/generateComponentMap.ts",
+    "validate": "node --experimental-strip-types scripts/validateLibrary.ts",
+    "build:map": "npm run validate && npm run generate:map"
+  }
+}

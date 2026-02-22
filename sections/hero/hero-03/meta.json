@@ -1,0 +1,26 @@
+{
+  "type": "hero",
+  "variantId": "hero.hero-03",
+  "name": "Hero - hero-03",
+  "description": "hero section variant hero-03",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [
+    "image"
+  ],
+  "supports": {
+    "bilingual": true,
+    "hasNav": true,
+    "hasCta": true
+  },
+  "weight": 1
+}

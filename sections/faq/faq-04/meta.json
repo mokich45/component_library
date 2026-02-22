@@ -1,0 +1,24 @@
+{
+  "type": "faq",
+  "variantId": "faq.faq-04",
+  "name": "Faq - faq-04",
+  "description": "faq section variant faq-04",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [],
+  "supports": {
+    "bilingual": true,
+    "hasNav": false,
+    "hasCta": true
+  },
+  "weight": 1
+}

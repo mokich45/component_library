@@ -1,0 +1,24 @@
+{
+  "type": "contact",
+  "variantId": "contact.contact-01",
+  "name": "Contact - contact-01",
+  "description": "contact section variant contact-01",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [],
+  "supports": {
+    "bilingual": true,
+    "hasNav": false,
+    "hasCta": true
+  },
+  "weight": 1
+}

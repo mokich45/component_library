@@ -1,0 +1,24 @@
+{
+  "type": "proof",
+  "variantId": "proof.proof-04",
+  "name": "Proof - proof-04",
+  "description": "proof section variant proof-04",
+  "tags": [
+    "general"
+  ],
+  "goals": [
+    "calls",
+    "leads",
+    "awareness"
+  ],
+  "density": [
+    "medium"
+  ],
+  "requires": [],
+  "supports": {
+    "bilingual": true,
+    "hasNav": false,
+    "hasCta": true
+  },
+  "weight": 1
+}
