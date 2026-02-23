@@ -30,16 +30,18 @@ export const ContactTabs: React.FC<ContactProps> = ({
   const [activeTab, setActiveTab] = useState(defaultTabs[0]?.id || 'form');
   const activeTabData = defaultTabs.find(tab => tab.id === activeTab);
 
-  const defaultFormFields = formFields || [
+  const defaultFormFields = (formFields || [
     { name: 'name', type: 'text', placeholder: 'Введите имя', label: 'Ваше имя' },
     { name: 'phone', type: 'tel', placeholder: '+7 (___) ___-__-__', label: 'Телефон' },
     { name: 'email', type: 'email', placeholder: 'your@email.com', label: 'Email' },
     { name: 'subject', type: 'text', placeholder: 'О чем вы хотите спросить?', label: 'Тема обращения' },
     { name: 'message', type: 'textarea', placeholder: 'Опишите ваш вопрос подробнее...', label: 'Сообщение', rows: 5, required: true }
-  ];
+  ]).filter((field) => Boolean(field?.name) && Boolean(field?.type));
 
-  const defaultContactInfo = contactInfo || [];
-  const defaultOffices = offices || [];
+  const defaultContactInfo = (contactInfo || [])
+    .map((info) => ({ ...info, values: (info.values || []).filter((value) => typeof value === 'string' && value.trim().length > 0) }))
+    .filter((info) => info.values.length > 0 && Boolean(info.label));
+  const defaultOffices = (offices || []).filter((office) => Boolean(office?.name));
 
   const getIconForType = (type: string) => {
     switch (type) {

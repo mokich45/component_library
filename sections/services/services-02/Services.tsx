@@ -21,6 +21,12 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Palette, Code, Zap, Users, Shield, Smartphone, Sparkles, Rocket, Target, Globe, Lightbulb, HeartHandshake, Check
 };
 
+const fallbackServices = [
+  { id: 'service-1', title: 'Service One', summary: 'Core service for launch', description: 'Reliable setup for your product experience.' },
+  { id: 'service-2', title: 'Service Two', summary: 'Growth support', description: 'Design and content improvements to increase conversion.' },
+  { id: 'service-3', title: 'Service Three', summary: 'Ongoing maintenance', description: 'Monitoring and iterative delivery after release.' },
+];
+
 export const ServicesGrid: React.FC<ServicesProps> = ({
   title,
   subtitle,
@@ -28,7 +34,7 @@ export const ServicesGrid: React.FC<ServicesProps> = ({
   className,
   id,
 }) => {
-  const safeItems = clampArray(items, 6);
+  const safeItems = clampArray(items && items.length > 0 ? items : fallbackServices, 6);
 
   return (
     <section 

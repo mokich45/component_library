@@ -21,15 +21,17 @@ export const ContactSidePanel: React.FC<ContactProps> = ({
   className,
   id,
 }) => {
-  const defaultFormFields = formFields || [
+  const defaultFormFields = (formFields || [
     { name: 'name', type: 'text', placeholder: 'Иван Иванов', label: 'Ваше имя', required: true },
     { name: 'email', type: 'email', placeholder: 'ivan@example.com', label: 'Email', required: true },
     { name: 'phone', type: 'tel', placeholder: '+7 (___) ___-__-__', label: 'Номер телефона' },
     { name: 'service', type: 'select', label: 'Выберите услугу', options: ['Консультация', 'Техническая поддержка', 'Сотрудничество', 'Другое'] },
     { name: 'message', type: 'textarea', placeholder: 'Расскажите подробнее о вашем вопросе...', label: 'Сообщение', rows: 5, required: true }
-  ];
+  ]).filter((field) => Boolean(field?.name) && Boolean(field?.type));
 
-  const defaultContactInfo = contactInfo || [];
+  const defaultContactInfo = (contactInfo || [])
+    .map((info) => ({ ...info, values: (info.values || []).filter((value) => typeof value === 'string' && value.trim().length > 0) }))
+    .filter((info) => info.values.length > 0 && Boolean(info.label));
 
   const getIconForType = (type: string) => {
     switch (type) {

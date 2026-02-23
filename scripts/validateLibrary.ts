@@ -94,6 +94,8 @@ function validateComponentMap(errors: string[]): void {
     return;
   }
 
+  const seenVariantIds = new Set<string>();
+
   for (const entry of components) {
     if (!entry || typeof entry !== 'object') {
       errors.push(`${rel(MAP_PATH)}: components entry must be object`);
@@ -101,6 +103,22 @@ function validateComponentMap(errors: string[]): void {
     }
 
     const e = entry as Record<string, unknown>;
+    if (typeof e.variantId !== 'string' || !e.variantId) {
+      errors.push(`${rel(MAP_PATH)}: variantId is required string in every component`);
+    } else if (seenVariantIds.has(e.variantId)) {
+      errors.push(`${rel(MAP_PATH)}: duplicate variantId in map (${e.variantId})`);
+    } else {
+      seenVariantIds.add(e.variantId);
+    }
+
+    if (typeof e.type !== 'string' || !ALLOWED_SECTION_TYPES.has(e.type)) {
+      errors.push(`${rel(MAP_PATH)}: invalid type in map (${String(e.type)})`);
+    }
+
+    if (typeof e.supportsPreview !== 'boolean') {
+      errors.push(`${rel(MAP_PATH)}: supportsPreview must be boolean for ${String(e.variantId || '<unknown>')}`);
+    }
+
     const pathKeys = ['componentPath', 'metaPath'];
     for (const key of pathKeys) {
       if (typeof e[key] !== 'string' || !e[key]) {
@@ -109,6 +127,11 @@ function validateComponentMap(errors: string[]): void {
         const abs = path.join(ROOT, e[key] as string);
         if (!hasFile(abs)) {
           errors.push(`${rel(MAP_PATH)}: ${key} points to missing file (${e[key] as string})`);
+        } else if (key === 'componentPath') {
+          const cp = e[key] as string;
+          if (!cp.startsWith('sections/') || !cp.endsWith('/index.tsx')) {
+            errors.push(`${rel(MAP_PATH)}: componentPath must point to sections/**/index.tsx (${cp})`);
+          }
         }
       }
     }
@@ -134,6 +157,22 @@ function validateComponentMap(errors: string[]): void {
         }
       }
     }
+  }
+}
+
+function validatePreviewCompatibility(errors: string[]): void {
+  const heroHeaderPath = path.join(ROOT, 'sections/hero/_shared/HeroHeader.tsx');
+  if (!hasFile(heroHeaderPath)) {
+    errors.push('sections/hero/_shared/HeroHeader.tsx: missing HeroHeader');
+    return;
+  }
+
+  const content = fs.readFileSync(heroHeaderPath, 'utf8');
+  if (!content.includes('isPreview')) {
+    errors.push('sections/hero/_shared/HeroHeader.tsx: missing preview guard (isPreview)');
+  }
+  if (!content.includes('open && !isPreview')) {
+    errors.push('sections/hero/_shared/HeroHeader.tsx: mobile overlay must be disabled in preview mode');
   }
 }
 
@@ -205,6 +244,7 @@ function main(): void {
   }
 
   validateComponentMap(errors);
+  validatePreviewCompatibility(errors);
 
   if (errors.length > 0) {
     console.error('Library validation failed:');

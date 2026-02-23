@@ -4,7 +4,7 @@ import { HeroProps } from '../types';
 import { cn, clampArray } from '../../../shared/utils';
 import { HeroHeader } from '../_shared/HeroHeader';
 
-export const Hero: React.FC<HeroProps> = ({ badges, title, subtitle, ctas, stats, media, nav, className, id }) => {
+export const Hero: React.FC<HeroProps> = ({ badges, title, subtitle, ctas, stats, media, nav, previewContext, className, id }) => {
   const safeCtas = clampArray(ctas, 2);
   const safeStats = clampArray(stats, 3);
   const badge = badges?.[0];
@@ -12,7 +12,7 @@ export const Hero: React.FC<HeroProps> = ({ badges, title, subtitle, ctas, stats
 
   return (
     <section id={id} className={cn('relative flex min-h-screen items-center overflow-hidden px-4 pb-16 pt-28 sm:px-6 sm:pt-32', className)}>
-      <HeroHeader config={nav} />
+      <HeroHeader config={nav} previewContext={previewContext} />
 
       {image && (
         <div className="absolute inset-0">

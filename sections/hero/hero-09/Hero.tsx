@@ -3,13 +3,13 @@ import { HeroProps } from '../types';
 import { cn, clampArray } from '../../../shared/utils';
 import { HeroHeader } from '../_shared/HeroHeader';
 
-export const Hero: React.FC<HeroProps> = ({ title, subtitle, ctas, media, nav, className, id }) => {
+export const Hero: React.FC<HeroProps> = ({ title, subtitle, ctas, media, nav, previewContext, className, id }) => {
   const safeCtas = clampArray(ctas, 1);
   const background = media?.images?.[0] || media?.image;
 
   return (
     <section id={id} className={cn('relative min-h-screen overflow-hidden px-6 pb-16 pt-28 sm:pt-32', className)}>
-      <HeroHeader config={nav} />
+      <HeroHeader config={nav} previewContext={previewContext} />
 
       {background && (
         <div className="absolute inset-0">

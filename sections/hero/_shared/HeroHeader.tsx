@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { HeroHeaderConfig } from '../types';
 import { cn } from '../../../shared/utils';
+import { PreviewContext } from '../../../shared/types/section';
 
 const defaultNavItems = [
   { label: 'Home', href: '#' },
@@ -12,18 +13,20 @@ const defaultNavItems = [
 
 interface HeroHeaderProps {
   config?: HeroHeaderConfig;
+  previewContext?: PreviewContext;
   className?: string;
 }
 
-export const HeroHeader: React.FC<HeroHeaderProps> = ({ config, className }) => {
+export const HeroHeader: React.FC<HeroHeaderProps> = ({ config, previewContext, className }) => {
   const [open, setOpen] = useState(false);
+  const isPreview = Boolean(previewContext?.isPreview);
   const logo = config?.logo || 'DDT Studio';
   const navItems = config?.navItems?.length ? config.navItems : defaultNavItems;
   const ctaLabel = config?.ctaLabel || 'Get started';
   const ctaHref = config?.ctaHref || '#contact';
 
   return (
-    <header className={cn('fixed top-0 left-0 right-0 z-50 px-4 pt-4 sm:px-6', className)}>
+    <header className={cn(isPreview ? 'relative z-10 px-4 pt-4 sm:px-6' : 'fixed top-0 left-0 right-0 z-50 px-4 pt-4 sm:px-6', className)}>
       <div className="mx-auto max-w-7xl rounded-2xl border border-white/35 bg-white/80 px-4 py-3 shadow-lg backdrop-blur-lg">
         <div className="flex items-center justify-between gap-4">
           <a href="#" className="text-base font-semibold tracking-wide text-slate-900 sm:text-lg">
@@ -55,7 +58,7 @@ export const HeroHeader: React.FC<HeroHeaderProps> = ({ config, className }) => 
           </button>
         </div>
 
-        {open && (
+        {open && !isPreview && (
           <nav className="mt-4 flex flex-col gap-3 border-t border-slate-200 pt-4 md:hidden">
             {navItems.map((item, index) => (
               <a

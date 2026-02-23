@@ -5,6 +5,15 @@ export interface CTA {
   variant?: "primary" | "secondary";
 }
 
+export interface PreviewContext {
+  isPreview?: boolean;
+  mode?: 'desktop' | 'mobile';
+}
+
+export interface BaseSectionProps {
+  previewContext?: PreviewContext;
+}
+
 export interface Image {
   src: string;
   alt?: string;
@@ -60,7 +69,7 @@ export interface CollageImage extends Image {
   height?: string;
 }
 
-export interface SectionProps {
+export interface SectionProps extends BaseSectionProps {
   className?: string;
   id?: string;
 }

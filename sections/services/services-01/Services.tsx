@@ -19,6 +19,12 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Sparkles, Rocket, Target, Globe, Lightbulb, HeartHandshake, Zap, Shield, Users, Check
 };
 
+const fallbackServices = [
+  { id: 'service-1', title: 'Service One', summary: 'Core service for launch', description: 'We provide a structured delivery with clear milestones.' },
+  { id: 'service-2', title: 'Service Two', summary: 'Growth support', description: 'Optimization and iteration based on real-world feedback.' },
+  { id: 'service-3', title: 'Service Three', summary: 'Ongoing maintenance', description: 'Continuous updates and support for stable operations.' },
+];
+
 export const ServicesAccordion: React.FC<ServicesProps> = ({
   title,
   subtitle,
@@ -26,7 +32,7 @@ export const ServicesAccordion: React.FC<ServicesProps> = ({
   className,
   id,
 }) => {
-  const safeItems = clampArray(items, 6);
+  const safeItems = clampArray(items && items.length > 0 ? items : fallbackServices, 6);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleItem = (index: number) => {

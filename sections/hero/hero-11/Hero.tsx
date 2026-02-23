@@ -3,13 +3,13 @@ import { HeroProps } from '../types';
 import { cn, clampArray } from '../../../shared/utils';
 import { HeroHeader } from '../_shared/HeroHeader';
 
-export const Hero: React.FC<HeroProps> = ({ title, subtitle, ctas, media, nav, className, id }) => {
+export const Hero: React.FC<HeroProps> = ({ title, subtitle, ctas, media, nav, previewContext, className, id }) => {
   const safeCtas = clampArray(ctas, 1);
   const image = media?.image;
 
   return (
     <section id={id} className={cn('relative bg-white px-4 pb-16 pt-28 sm:px-6 sm:pt-32', className)}>
-      <HeroHeader config={nav} />
+      <HeroHeader config={nav} previewContext={previewContext} />
 
       <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2 lg:gap-14">
         <div>

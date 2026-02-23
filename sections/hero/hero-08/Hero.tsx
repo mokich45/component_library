@@ -4,13 +4,13 @@ import { HeroProps } from '../types';
 import { cn, clampArray } from '../../../shared/utils';
 import { HeroHeader } from '../_shared/HeroHeader';
 
-export const Hero: React.FC<HeroProps> = ({ title, subtitle, ctas, media, note, nav, className, id }) => {
+export const Hero: React.FC<HeroProps> = ({ title, subtitle, ctas, media, note, nav, previewContext, className, id }) => {
   const primaryCta = clampArray(ctas, 1)[0];
   const image = media?.image;
 
   return (
     <section id={id} className={cn('relative flex min-h-screen items-center justify-center overflow-hidden px-4 pb-16 pt-28 sm:pt-32', className)}>
-      <HeroHeader config={nav} />
+      <HeroHeader config={nav} previewContext={previewContext} />
 
       {image && (
         <div className="absolute inset-0">

@@ -3,6 +3,12 @@ import { ArrowUpRight } from 'lucide-react';
 import { ServicesProps } from '../types';
 import { cn, clampArray } from '../../../shared/utils';
 
+const fallbackServices = [
+  { id: 'service-1', number: '01', title: 'Service One', summary: 'Core launch package' },
+  { id: 'service-2', number: '02', title: 'Service Two', summary: 'Growth package' },
+  { id: 'service-3', number: '03', title: 'Service Three', summary: 'Support package' },
+];
+
 export const ServicesMinimal: React.FC<ServicesProps> = ({
   title,
   subtitle,
@@ -10,7 +16,7 @@ export const ServicesMinimal: React.FC<ServicesProps> = ({
   className,
   id,
 }) => {
-  const safeItems = clampArray(items, 6);
+  const safeItems = clampArray(items && items.length > 0 ? items : fallbackServices, 6);
 
   return (
     <section 

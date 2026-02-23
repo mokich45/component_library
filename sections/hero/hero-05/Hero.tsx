@@ -1,20 +1,17 @@
 import React from 'react';
-import { ArrowRight, Award, Star, TrendingUp } from 'lucide-react';
+import { ArrowRight, Award } from 'lucide-react';
 import { HeroProps } from '../types';
 import { cn, clampArray } from '../../../shared/utils';
+import { HeroHeader } from '../_shared/HeroHeader';
 
-const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
-  Award, Star, TrendingUp, ArrowRight,
-};
-
-export const HeroWithStats: React.FC<HeroProps> = ({
+export const Hero: React.FC<HeroProps> = ({
   badges,
   title,
   subtitle,
   ctas,
   stats,
   media,
-  note, // Используем для titleHighlight если нужно
+  note,  previewContext,
   className,
   id,
 }) => {
@@ -24,78 +21,69 @@ export const HeroWithStats: React.FC<HeroProps> = ({
   const badge = badges?.[0];
 
   return (
-    <section 
-      id={id}
-      className={cn("pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-gray-100/30 to-white dark:from-gray-800/30 dark:to-gray-900", className)}
-    >
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          <div className="space-y-8 order-2 lg:order-1">
-            {badge && (
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-100 dark:bg-indigo-900/30 rounded-full">
-                <Award className="w-4 h-4 text-indigo-700 dark:text-indigo-300" />
-                <span className="text-sm text-indigo-700 dark:text-indigo-300">{badge.text}</span>
-              </div>
-            )}
-            
-            <div className="space-y-6">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tight leading-tight text-gray-900 dark:text-white">
-                {title}
-                {note && <span className="text-indigo-600 dark:text-indigo-400"> {note}</span>}
-              </h1>
-              {subtitle && <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-xl">{subtitle}</p>}
+    <section id={id} className={cn('relative bg-gradient-to-b from-slate-100 to-white px-4 pb-16 pt-28 sm:px-6 sm:pt-32', className)}>
+      <HeroHeader config={nav} previewContext={previewContext} />
+
+      <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2 lg:gap-16">
+        <div className="order-2 space-y-7 lg:order-1">
+          {badge && (
+            <div className="inline-flex items-center gap-2 rounded-full bg-indigo-100 px-4 py-2 text-sm text-indigo-700">
+              <Award className="h-4 w-4" />
+              <span>{badge.text}</span>
             </div>
+          )}
 
-            {safeCtas.length > 0 && (
-              <div className="flex flex-col sm:flex-row gap-4">
-                {safeCtas.map((cta, index) => {
-                  const baseClasses = "inline-flex items-center justify-center rounded-md px-8 py-3 text-sm font-semibold shadow-sm transition-all duration-200";
-                  const variantClasses = cta.variant === 'secondary' 
-                    ? "bg-transparent border-2 border-gray-300 dark:border-gray-700 text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800"
-                    : "bg-indigo-600 text-white hover:bg-indigo-500 group";
-                  
-                  const href = cta.href || (cta.targetId ? `#${cta.targetId}` : undefined);
-
-                  return href ? (
-                    <a key={index} href={href} className={cn(baseClasses, variantClasses)}>
-                      {cta.label}
-                      {index === 0 && <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />}
-                    </a>
-                  ) : (
-                    <button key={index} className={cn(baseClasses, variantClasses)}>
-                      {cta.label}
-                      {index === 0 && <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />}
-                    </button>
-                  );
-                })}
-              </div>
-            )}
-
-            {safeStats.length > 0 && (
-              <div className="grid grid-cols-3 gap-6 pt-6 border-t border-gray-200 dark:border-gray-700">
-                {safeStats.map((stat, index) => (
-                  <div key={index}>
-                    <div className="flex items-baseline gap-2 mb-1">
-                      <span className="text-3xl text-indigo-600 dark:text-indigo-400">{stat.value}</span>
-                      {index === safeStats.length - 1 && <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />}
-                    </div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400">{stat.label}</div>
-                  </div>
-                ))}
-              </div>
-            )}
+          <div>
+            <h1 className="text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
+              {title}
+              {note && <span className="text-indigo-600"> {note}</span>}
+            </h1>
+            {subtitle && <p className="mt-4 max-w-xl text-lg text-slate-600">{subtitle}</p>}
           </div>
 
-          {image && (
-            <div className="relative order-1 lg:order-2">
-              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
-                <img src={image.src} alt={image.alt || ""} className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-indigo-600/20 to-transparent" />
-              </div>
+          {safeCtas.length > 0 && (
+            <div className="flex flex-col gap-3 sm:flex-row">
+              {safeCtas.map((cta, index) => {
+                const href = cta.href || (cta.targetId ? `#${cta.targetId}` : '#');
+                const isSecondary = cta.variant === 'secondary';
+
+                return (
+                  <a
+                    key={index}
+                    href={href}
+                    className={cn(
+                      'inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-colors',
+                      isSecondary ? 'border border-slate-300 text-slate-900 hover:bg-slate-100' : 'bg-indigo-600 text-white hover:bg-indigo-500'
+                    )}
+                  >
+                    {cta.label}
+                    {index === 0 && <ArrowRight className="h-4 w-4" />}
+                  </a>
+                );
+              })}
+            </div>
+          )}
+
+          {safeStats.length > 0 && (
+            <div className="grid grid-cols-1 gap-4 border-t border-slate-200 pt-6 sm:grid-cols-3">
+              {safeStats.map((stat, index) => (
+                <div key={index}>
+                  <div className="text-2xl font-semibold text-indigo-600">{stat.value}</div>
+                  <div className="mt-1 text-sm text-slate-600">{stat.label}</div>
+                </div>
+              ))}
             </div>
           )}
         </div>
+
+        {image && (
+          <div className="order-1 overflow-hidden rounded-2xl shadow-2xl lg:order-2">
+            <img src={image.src} alt={image.alt || ''} className="h-full min-h-[320px] w-full object-cover" />
+          </div>
+        )}
       </div>
     </section>
   );
 };
+
+export { Hero as HeroWithStats };

@@ -20,14 +20,16 @@ export const ContactSplit: React.FC<ContactProps> = ({
   className,
   id,
 }) => {
-  const defaultFormFields = formFields || [
+  const defaultFormFields = (formFields || [
     { name: 'name', type: 'text', placeholder: 'Ваше имя', required: true },
     { name: 'email', type: 'email', placeholder: 'Email', required: true },
     { name: 'phone', type: 'tel', placeholder: 'Телефон' },
     { name: 'message', type: 'textarea', placeholder: 'Ваше сообщение', rows: 5, required: true }
-  ];
+  ]).filter((field) => Boolean(field?.name) && Boolean(field?.type));
 
-  const defaultContactInfo = contactInfo || [];
+  const defaultContactInfo = (contactInfo || [])
+    .map((info) => ({ ...info, values: (info.values || []).filter((value) => typeof value === 'string' && value.trim().length > 0) }))
+    .filter((info) => info.values.length > 0 && Boolean(info.label));
 
   const getIconForType = (type: string) => {
     switch (type) {

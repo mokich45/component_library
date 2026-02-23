@@ -18,15 +18,17 @@ export const ContactCentered: React.FC<ContactProps> = ({
   className,
   id,
 }) => {
-  const defaultFormFields = formFields || [
+  const defaultFormFields = (formFields || [
     { name: 'name', type: 'text', placeholder: 'Иван Иванов', label: 'Имя', required: true },
     { name: 'email', type: 'email', placeholder: 'ivan@example.com', label: 'Email', required: true },
     { name: 'company', type: 'text', placeholder: 'Название вашей компании', label: 'Компания' },
     { name: 'message', type: 'textarea', placeholder: 'Расскажите о вашем проекте...', label: 'Сообщение', rows: 6, required: true }
-  ];
+  ]).filter((field) => Boolean(field?.name) && Boolean(field?.type));
 
-  const defaultContactInfo = contactInfo || [];
-  const defaultSocialLinks = socialLinks || [];
+  const defaultContactInfo = (contactInfo || [])
+    .map((info) => ({ ...info, values: (info.values || []).filter((value) => typeof value === 'string' && value.trim().length > 0) }))
+    .filter((info) => info.values.length > 0 && Boolean(info.label));
+  const defaultSocialLinks = (socialLinks || []).filter((link) => typeof link.href === 'string' && link.href.trim().length > 0);
 
   const getIconForType = (type: string) => {
     switch (type) {

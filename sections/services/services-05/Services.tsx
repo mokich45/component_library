@@ -24,9 +24,34 @@ export const ServicesTabs: React.FC<ServicesProps> = ({
   className,
   id,
 }) => {
-  if (!categories || categories.length === 0) return null;
+  const fallbackCategories = [
+    {
+      id: 'core',
+      label: 'Core',
+      title: 'Core Service',
+      subtitle: 'Foundation package',
+      description: 'Baseline implementation to launch your section flow.',
+      features: ['Structure setup', 'Content wiring', 'Responsive layout'],
+    },
+    {
+      id: 'growth',
+      label: 'Growth',
+      title: 'Growth Service',
+      subtitle: 'Optimization package',
+      description: 'Improvements focused on UX, conversion and scaling.',
+      features: ['CTA optimization', 'Messaging refresh', 'Performance tuning'],
+    },
+    {
+      id: 'support',
+      label: 'Support',
+      title: 'Support Service',
+      subtitle: 'Maintenance package',
+      description: 'Support after launch with predictable iterations.',
+      features: ['Issue triage', 'Weekly updates', 'Stability checks'],
+    },
+  ];
   
-  const safeCategories = clampArray(categories, 4);
+  const safeCategories = clampArray(categories && categories.length > 0 ? categories : fallbackCategories, 4);
   const [activeTab, setActiveTab] = useState(safeCategories[0]?.id || '');
 
   const activeCategory = safeCategories.find(cat => cat.id === activeTab) || safeCategories[0];

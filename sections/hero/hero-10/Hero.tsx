@@ -3,13 +3,13 @@ import { HeroProps } from '../types';
 import { cn } from '../../../shared/utils';
 import { HeroHeader } from '../_shared/HeroHeader';
 
-export const Hero: React.FC<HeroProps> = ({ title, media, nav, className, id }) => {
+export const Hero: React.FC<HeroProps> = ({ title, media, nav, previewContext, className, id }) => {
   const [left = '', right = ''] = title.split('|').map((part) => part.trim());
   const image = media?.image;
 
   return (
     <section id={id} className={cn('relative bg-[#f5efe6] px-4 pb-16 pt-28 sm:px-6 sm:pt-32', className)}>
-      <HeroHeader config={nav} />
+      <HeroHeader config={nav} previewContext={previewContext} />
 
       <div className="mx-auto flex min-h-[70vh] max-w-7xl items-center">
         <div className="w-full md:hidden">

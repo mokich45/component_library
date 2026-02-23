@@ -18,14 +18,16 @@ export const ContactFullWidth: React.FC<ContactProps> = ({
   className,
   id,
 }) => {
-  const defaultFormFields = formFields || [
+  const defaultFormFields = (formFields || [
     { name: 'name', type: 'text', placeholder: 'Имя', required: true },
     { name: 'email', type: 'email', placeholder: 'Email', required: true },
     { name: 'subject', type: 'text', placeholder: 'Тема сообщения' },
     { name: 'message', type: 'textarea', placeholder: 'Ваше сообщение', rows: 6, required: true }
-  ];
+  ]).filter((field) => Boolean(field?.name) && Boolean(field?.type));
 
-  const defaultContactInfo = contactInfo || [];
+  const defaultContactInfo = (contactInfo || [])
+    .map((info) => ({ ...info, values: (info.values || []).filter((value) => typeof value === 'string' && value.trim().length > 0) }))
+    .filter((info) => info.values.length > 0 && Boolean(info.label));
 
   const getIconForType = (type: string) => {
     switch (type) {

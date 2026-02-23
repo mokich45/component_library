@@ -1,6 +1,6 @@
 {
   "version": "component_map_v1",
-  "generatedAt": "2026-02-23T04:45:52.768Z",
+  "generatedAt": "2026-02-23T05:18:18.455Z",
   "components": [
     {
       "type": "contact",
@@ -10,6 +10,7 @@
       "metaPath": "sections/contact/contact-01/meta.json",
       "schemaPath": "sections/contact/contact-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "contact",
         "variantId": "contact.contact-01",
@@ -43,6 +44,7 @@
       "metaPath": "sections/contact/contact-02/meta.json",
       "schemaPath": "sections/contact/contact-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "contact",
         "variantId": "contact.contact-02",
@@ -76,6 +78,7 @@
       "metaPath": "sections/contact/contact-03/meta.json",
       "schemaPath": "sections/contact/contact-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "contact",
         "variantId": "contact.contact-03",
@@ -109,6 +112,7 @@
       "metaPath": "sections/contact/contact-04/meta.json",
       "schemaPath": "sections/contact/contact-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "contact",
         "variantId": "contact.contact-04",
@@ -142,6 +146,7 @@
       "metaPath": "sections/contact/contact-05/meta.json",
       "schemaPath": "sections/contact/contact-05/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "contact",
         "variantId": "contact.contact-05",
@@ -175,6 +180,7 @@
       "metaPath": "sections/faq/faq-01/meta.json",
       "schemaPath": "sections/faq/faq-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "faq",
         "variantId": "faq.faq-01",
@@ -208,6 +214,7 @@
       "metaPath": "sections/faq/faq-02/meta.json",
       "schemaPath": "sections/faq/faq-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "faq",
         "variantId": "faq.faq-02",
@@ -241,6 +248,7 @@
       "metaPath": "sections/faq/faq-03/meta.json",
       "schemaPath": "sections/faq/faq-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "faq",
         "variantId": "faq.faq-03",
@@ -274,6 +282,7 @@
       "metaPath": "sections/faq/faq-04/meta.json",
       "schemaPath": "sections/faq/faq-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "faq",
         "variantId": "faq.faq-04",
@@ -307,6 +316,7 @@
       "metaPath": "sections/features/features-01/meta.json",
       "schemaPath": "sections/features/features-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "features",
         "variantId": "features.features-01",
@@ -340,6 +350,7 @@
       "metaPath": "sections/features/features-02/meta.json",
       "schemaPath": "sections/features/features-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "features",
         "variantId": "features.features-02",
@@ -373,6 +384,7 @@
       "metaPath": "sections/features/features-03/meta.json",
       "schemaPath": "sections/features/features-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "features",
         "variantId": "features.features-03",
@@ -406,6 +418,7 @@
       "metaPath": "sections/features/features-04/meta.json",
       "schemaPath": "sections/features/features-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "features",
         "variantId": "features.features-04",
@@ -439,6 +452,7 @@
       "metaPath": "sections/features/features-05/meta.json",
       "schemaPath": "sections/features/features-05/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "features",
         "variantId": "features.features-05",
@@ -472,6 +486,7 @@
       "metaPath": "sections/footer/footer-01/meta.json",
       "schemaPath": "sections/footer/footer-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "footer",
         "variantId": "footer.footer-01",
@@ -505,6 +520,7 @@
       "metaPath": "sections/footer/footer-02/meta.json",
       "schemaPath": "sections/footer/footer-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "footer",
         "variantId": "footer.footer-02",
@@ -538,6 +554,7 @@
       "metaPath": "sections/footer/footer-03/meta.json",
       "schemaPath": "sections/footer/footer-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "footer",
         "variantId": "footer.footer-03",
@@ -571,6 +588,7 @@
       "metaPath": "sections/footer/footer-04/meta.json",
       "schemaPath": "sections/footer/footer-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "footer",
         "variantId": "footer.footer-04",
@@ -604,6 +622,7 @@
       "metaPath": "sections/footer/footer-05/meta.json",
       "schemaPath": "sections/footer/footer-05/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "footer",
         "variantId": "footer.footer-05",
@@ -637,6 +656,7 @@
       "metaPath": "sections/hero/hero-01/meta.json",
       "schemaPath": "sections/hero/hero-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-01",
@@ -672,6 +692,7 @@
       "metaPath": "sections/hero/hero-02/meta.json",
       "schemaPath": "sections/hero/hero-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-02",
@@ -707,6 +728,7 @@
       "metaPath": "sections/hero/hero-03/meta.json",
       "schemaPath": "sections/hero/hero-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-03",
@@ -742,6 +764,7 @@
       "metaPath": "sections/hero/hero-04/meta.json",
       "schemaPath": "sections/hero/hero-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-04",
@@ -777,6 +800,7 @@
       "metaPath": "sections/hero/hero-05/meta.json",
       "schemaPath": "sections/hero/hero-05/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-05",
@@ -812,6 +836,7 @@
       "metaPath": "sections/hero/hero-06/meta.json",
       "schemaPath": "sections/hero/hero-06/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-06",
@@ -847,6 +872,7 @@
       "metaPath": "sections/hero/hero-07/meta.json",
       "schemaPath": "sections/hero/hero-07/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-07",
@@ -882,6 +908,7 @@
       "metaPath": "sections/hero/hero-08/meta.json",
       "schemaPath": "sections/hero/hero-08/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-08",
@@ -917,6 +944,7 @@
       "metaPath": "sections/hero/hero-09/meta.json",
       "schemaPath": "sections/hero/hero-09/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-09",
@@ -952,6 +980,7 @@
       "metaPath": "sections/hero/hero-10/meta.json",
       "schemaPath": "sections/hero/hero-10/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-10",
@@ -987,6 +1016,7 @@
       "metaPath": "sections/hero/hero-11/meta.json",
       "schemaPath": "sections/hero/hero-11/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-11",
@@ -1022,6 +1052,7 @@
       "metaPath": "sections/hero/hero-12/meta.json",
       "schemaPath": "sections/hero/hero-12/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "hero",
         "variantId": "hero.hero-12",
@@ -1057,6 +1088,7 @@
       "metaPath": "sections/portfolio/portfolio-01/meta.json",
       "schemaPath": "sections/portfolio/portfolio-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "portfolio",
         "variantId": "portfolio.portfolio-01",
@@ -1092,6 +1124,7 @@
       "metaPath": "sections/portfolio/portfolio-02/meta.json",
       "schemaPath": "sections/portfolio/portfolio-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "portfolio",
         "variantId": "portfolio.portfolio-02",
@@ -1127,6 +1160,7 @@
       "metaPath": "sections/portfolio/portfolio-03/meta.json",
       "schemaPath": "sections/portfolio/portfolio-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "portfolio",
         "variantId": "portfolio.portfolio-03",
@@ -1162,6 +1196,7 @@
       "metaPath": "sections/portfolio/portfolio-04/meta.json",
       "schemaPath": "sections/portfolio/portfolio-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "portfolio",
         "variantId": "portfolio.portfolio-04",
@@ -1197,6 +1232,7 @@
       "metaPath": "sections/portfolio/portfolio-05/meta.json",
       "schemaPath": "sections/portfolio/portfolio-05/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "portfolio",
         "variantId": "portfolio.portfolio-05",
@@ -1232,6 +1268,7 @@
       "metaPath": "sections/process/process-01/meta.json",
       "schemaPath": "sections/process/process-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "process",
         "variantId": "process.process-01",
@@ -1265,6 +1302,7 @@
       "metaPath": "sections/process/process-02/meta.json",
       "schemaPath": "sections/process/process-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "process",
         "variantId": "process.process-02",
@@ -1298,6 +1336,7 @@
       "metaPath": "sections/process/process-03/meta.json",
       "schemaPath": "sections/process/process-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "process",
         "variantId": "process.process-03",
@@ -1331,6 +1370,7 @@
       "metaPath": "sections/process/process-04/meta.json",
       "schemaPath": "sections/process/process-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "process",
         "variantId": "process.process-04",
@@ -1364,6 +1404,7 @@
       "metaPath": "sections/process/process-05/meta.json",
       "schemaPath": "sections/process/process-05/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "process",
         "variantId": "process.process-05",
@@ -1397,6 +1438,7 @@
       "metaPath": "sections/proof/proof-01/meta.json",
       "schemaPath": "sections/proof/proof-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "proof",
         "variantId": "proof.proof-01",
@@ -1430,6 +1472,7 @@
       "metaPath": "sections/proof/proof-02/meta.json",
       "schemaPath": "sections/proof/proof-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "proof",
         "variantId": "proof.proof-02",
@@ -1463,6 +1506,7 @@
       "metaPath": "sections/proof/proof-03/meta.json",
       "schemaPath": "sections/proof/proof-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "proof",
         "variantId": "proof.proof-03",
@@ -1496,6 +1540,7 @@
       "metaPath": "sections/proof/proof-04/meta.json",
       "schemaPath": "sections/proof/proof-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "proof",
         "variantId": "proof.proof-04",
@@ -1529,6 +1574,7 @@
       "metaPath": "sections/proof/proof-05/meta.json",
       "schemaPath": "sections/proof/proof-05/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "proof",
         "variantId": "proof.proof-05",
@@ -1562,6 +1608,7 @@
       "metaPath": "sections/services/services-01/meta.json",
       "schemaPath": "sections/services/services-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "services",
         "variantId": "services.services-01",
@@ -1595,6 +1642,7 @@
       "metaPath": "sections/services/services-02/meta.json",
       "schemaPath": "sections/services/services-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "services",
         "variantId": "services.services-02",
@@ -1628,6 +1676,7 @@
       "metaPath": "sections/services/services-03/meta.json",
       "schemaPath": "sections/services/services-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "services",
         "variantId": "services.services-03",
@@ -1661,6 +1710,7 @@
       "metaPath": "sections/services/services-04/meta.json",
       "schemaPath": "sections/services/services-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "services",
         "variantId": "services.services-04",
@@ -1694,6 +1744,7 @@
       "metaPath": "sections/services/services-05/meta.json",
       "schemaPath": "sections/services/services-05/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "services",
         "variantId": "services.services-05",
@@ -1727,6 +1778,7 @@
       "metaPath": "sections/trust/trust-01/meta.json",
       "schemaPath": "sections/trust/trust-01/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "trust",
         "variantId": "trust.trust-01",
@@ -1760,6 +1812,7 @@
       "metaPath": "sections/trust/trust-02/meta.json",
       "schemaPath": "sections/trust/trust-02/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "trust",
         "variantId": "trust.trust-02",
@@ -1793,6 +1846,7 @@
       "metaPath": "sections/trust/trust-03/meta.json",
       "schemaPath": "sections/trust/trust-03/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "trust",
         "variantId": "trust.trust-03",
@@ -1826,6 +1880,7 @@
       "metaPath": "sections/trust/trust-04/meta.json",
       "schemaPath": "sections/trust/trust-04/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "trust",
         "variantId": "trust.trust-04",
@@ -1859,6 +1914,7 @@
       "metaPath": "sections/trust/trust-05/meta.json",
       "schemaPath": "sections/trust/trust-05/schema.json",
       "previewPath": null,
+      "supportsPreview": true,
       "meta": {
         "type": "trust",
         "variantId": "trust.trust-05",

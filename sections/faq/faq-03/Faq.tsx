@@ -7,6 +7,12 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Clock, CreditCard, MapPin, Shield, Users, Phone, Mail, MessageSquare, HelpCircle
 };
 
+const fallbackFaqItems = [
+  { question: 'How long does setup take?', answer: 'Initial setup usually takes a few business days depending on scope.' },
+  { question: 'Can we customize the content?', answer: 'Yes, all blocks are designed to accept custom copy and structure.' },
+  { question: 'Is mobile layout included?', answer: 'Yes, each section is built to work on desktop and mobile by default.' },
+];
+
 export const FaqGrid: React.FC<FaqProps> = ({
   title,
   subtitle,
@@ -16,7 +22,7 @@ export const FaqGrid: React.FC<FaqProps> = ({
   id,
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-  const safeItems = clampArray(items, 9);
+  const safeItems = clampArray(items && items.length > 0 ? items : fallbackFaqItems, 9);
 
   return (
     <section 

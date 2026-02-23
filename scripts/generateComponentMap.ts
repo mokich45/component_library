@@ -11,6 +11,7 @@ interface VariantMeta {
   density?: string[];
   requires?: string[];
   supports?: Record<string, unknown>;
+  supportsPreview?: boolean;
   weight?: number;
 }
 
@@ -22,6 +23,7 @@ interface ComponentMapItem {
   metaPath: string;
   schemaPath: string | null;
   previewPath: string | null;
+  supportsPreview: boolean;
   meta: VariantMeta;
 }
 
@@ -103,6 +105,9 @@ function ensureMeta(meta: unknown, context: string): VariantMeta {
   if (obj.supports !== undefined && (typeof obj.supports !== 'object' || obj.supports === null || Array.isArray(obj.supports))) {
     throw new Error(`${context}: meta.supports must be an object if provided`);
   }
+  if (obj.supportsPreview !== undefined && typeof obj.supportsPreview !== 'boolean') {
+    throw new Error(`${context}: meta.supportsPreview must be a boolean if provided`);
+  }
 
   return obj as unknown as VariantMeta;
 }
@@ -166,6 +171,7 @@ function main(): void {
       metaPath: rel(metaPathAbs),
       schemaPath: hasFile(schemaPathAbs) ? rel(schemaPathAbs) : null,
       previewPath: getPreviewPath(variant.dir),
+      supportsPreview: meta.supportsPreview ?? true,
       meta,
     });
   }

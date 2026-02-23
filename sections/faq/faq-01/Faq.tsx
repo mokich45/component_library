@@ -3,6 +3,12 @@ import { ChevronDown } from 'lucide-react';
 import { FaqProps } from '../types';
 import { cn, clampArray } from '../../../shared/utils';
 
+const fallbackFaqItems = [
+  { question: 'How long does setup take?', answer: 'Initial setup usually takes a few business days depending on scope.' },
+  { question: 'Can we customize the content?', answer: 'Yes, all blocks are designed to accept custom copy and structure.' },
+  { question: 'Is mobile layout included?', answer: 'Yes, each section is built to work on desktop and mobile by default.' },
+];
+
 export const FaqAccordion: React.FC<FaqProps> = ({
   title,
   subtitle,
@@ -12,7 +18,7 @@ export const FaqAccordion: React.FC<FaqProps> = ({
   id,
 }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
-  const safeItems = clampArray(items, 10);
+  const safeItems = clampArray(items && items.length > 0 ? items : fallbackFaqItems, 10);
 
   return (
     <section 

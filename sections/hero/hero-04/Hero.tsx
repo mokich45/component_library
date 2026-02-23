@@ -1,60 +1,47 @@
 import React from 'react';
 import { HeroProps } from '../types';
 import { cn } from '../../../shared/utils';
+import { HeroHeader } from '../_shared/HeroHeader';
 
-export const HeroSplitText: React.FC<HeroProps> = ({
-  title, // Используем формат "Left Part | Right Part"
-  media,
-  className,
-  id,
-}) => {
-  const [titleLeft, titleRight] = title.split('|').map(s => s.trim());
+export const Hero: React.FC<HeroProps> = ({ title, media, nav, previewContext, className, id }) => {
+  const [titleLeft = '', titleRight = ''] = title.split('|').map((s) => s.trim());
   const image = media?.image;
 
   return (
-    <main 
-      id={id}
-      className={cn("relative z-10 px-4 md:px-8 py-8 md:py-16 max-w-7xl mx-auto", className)}
-    >
-      {/* Mobile Layout */}
-      <div className="md:hidden flex flex-col items-center text-center space-y-6">
-        <h1 className="text-gray-900 dark:text-white leading-[0.9] font-serif text-4xl sm:text-5xl font-bold whitespace-pre-line">
-          {titleLeft}
-        </h1>
-        
-        {image && (
-          <div className="w-[240px] h-[360px] overflow-hidden rounded-3xl shadow-2xl">
-            <img src={image.src} alt={image.alt || ""} className="w-full h-full object-cover" />
-          </div>
-        )}
-        
-        <h1 className="text-gray-900 dark:text-white leading-[0.9] font-serif text-4xl sm:text-5xl font-bold whitespace-pre-line">
-          {titleRight}
-        </h1>
-      </div>
+    <section id={id} className={cn('relative bg-[#f8f1e7] px-4 pb-14 pt-28 sm:px-6 sm:pt-32', className)}>
+      <HeroHeader config={nav} previewContext={previewContext} />
 
-      {/* Desktop Layout */}
-      <div className="hidden md:flex items-center justify-center gap-8">
-        <div className="flex-1 flex flex-col items-end">
-          <h1 className="text-gray-900 dark:text-white text-right leading-[0.9] font-serif text-5xl lg:text-7xl xl:text-8xl font-bold whitespace-pre-line">
-            {titleLeft}
-          </h1>
+      <div className="mx-auto flex min-h-[70vh] max-w-7xl items-center">
+        <div className="w-full md:hidden">
+          <div className="flex flex-col items-center gap-6 text-center">
+            <h1 className="text-5xl font-bold leading-[0.9] text-[#2b1f16] sm:text-6xl">{titleLeft}</h1>
+            {image && (
+              <div className="h-[360px] w-[240px] overflow-hidden rounded-3xl shadow-2xl">
+                <img src={image.src} alt={image.alt || ''} className="h-full w-full object-cover" />
+              </div>
+            )}
+            <h1 className="text-5xl font-bold leading-[0.9] text-[#2b1f16] sm:text-6xl">{titleRight}</h1>
+          </div>
         </div>
 
-        {image && (
-          <div className="flex-shrink-0">
-            <div className="w-[280px] h-[420px] overflow-hidden rounded-3xl shadow-2xl">
-              <img src={image.src} alt={image.alt || ""} className="w-full h-full object-cover" />
+        <div className="hidden w-full items-center justify-center gap-8 md:flex">
+          <div className="flex-1 text-right">
+            <h1 className="text-7xl font-bold leading-[0.9] text-[#2b1f16] lg:text-8xl">{titleLeft}</h1>
+          </div>
+
+          {image && (
+            <div className="h-[440px] w-[300px] overflow-hidden rounded-3xl shadow-2xl">
+              <img src={image.src} alt={image.alt || ''} className="h-full w-full object-cover" />
             </div>
-          </div>
-        )}
+          )}
 
-        <div className="flex-1">
-          <h1 className="text-gray-900 dark:text-white leading-[0.9] font-serif text-5xl lg:text-7xl xl:text-8xl font-bold whitespace-pre-line">
-            {titleRight}
-          </h1>
+          <div className="flex-1">
+            <h1 className="text-7xl font-bold leading-[0.9] text-[#2b1f16] lg:text-8xl">{titleRight}</h1>
+          </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
+
+export { Hero as HeroSplitText };
