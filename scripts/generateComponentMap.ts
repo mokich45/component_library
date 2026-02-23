@@ -47,19 +47,21 @@ function listVariantDirs(): Array<{ type: string; slug: string; dir: string }> {
   }
 
   const out: Array<{ type: string; slug: string; dir: string }> = [];
-  const sectionTypes = fs.readdirSync(SECTIONS_DIR, { withFileTypes: true });
+  const sectionTypes = fs
+    .readdirSync(SECTIONS_DIR, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .filter((d) => !d.name.startsWith('.'))
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   for (const sectionType of sectionTypes) {
-    if (!sectionType.isDirectory()) continue;
-    if (sectionType.name.startsWith('.')) continue;
-
     const typeDir = path.join(SECTIONS_DIR, sectionType.name);
-    const variants = fs.readdirSync(typeDir, { withFileTypes: true });
+    const variants = fs
+      .readdirSync(typeDir, { withFileTypes: true })
+      .filter((d) => d.isDirectory())
+      .filter((d) => !d.name.startsWith('.') && !d.name.startsWith('_'))
+      .sort((a, b) => a.name.localeCompare(b.name));
 
     for (const variant of variants) {
-      if (!variant.isDirectory()) continue;
-      if (variant.name.startsWith('.') || variant.name.startsWith('_')) continue;
-
       const variantDir = path.join(typeDir, variant.name);
       const metaPath = path.join(variantDir, 'meta.json');
       if (!hasFile(metaPath)) continue;
